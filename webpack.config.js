@@ -16,6 +16,8 @@ module.exports = {
     entry: entryList,
     output: {
         filename: "[name].js",
+        libraryTarget: 'umd',
+        library: 'armigate-client-side'
     },
     devServer: {
         port: 9000,
